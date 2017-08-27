@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+ Copyright (C) 2007 Pedro Gongora
+ Author: Pedro Gongora <pedro.gongora@gmail.com>
+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+
+ You should have received a copy of the GNU Library General Public
+ License along with this library; if not, write to the
+ Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+ Boston, MA 02111-1307, USA.
+
+-->
+
+<style-scheme id="chela_light-edited" _name="Chela Light Edited" version="1.0">
+
+  <author>Pedro Gongora</author>
+  <_description>chela light color scheme from gvim</_description>
+
+  <!-- Tango Palette -->
+  <color name="white"                       value="#ffffff"/>
+  <color name="green1"                      value="#339900"/>
+  <color name="red1"                        value="#dd3333"/>
+  <color name="red2"                        value="#ff3333"/>
+  <color name="blue1"                       value="#0057AE"/>
+  <color name="magenta1"                    value="#cc00cc"/>
+  <color name="white1"                      value="#fafafa"/>
+
+  <!-- Global Settings -->
+  <style name="text"                        foreground="#black" background="transparent" />
+  <style name="selection"                   foreground="#4D4D4D" background="#FEFF00"/>
+  <style name="cursor"                      foreground="#black"/>
+  <style name="current-line"                background="#gray92"/>
+  <style name="line-numbers"                foreground="#gray" />
+  <style name="draw-spaces"                 foreground="#d3d7cf"/>
+  <style name="right-margin"                foreground="#gray" background="#black"/>
+  <style name="background-pattern"          background="#f3f3f3"/>
+
+  <!-- Search Matching -->
+  <style name="search-match"                background="yellow"/>
+
+  <!-- Bookmarks -->
+  <style name="bookmark"                    background="#E5E5FF"/>
+
+  <!-- legacy styles for old lang files -->
+  <style name="Others"                      foreground="dark-red"/>
+  <style name="Others 2"                    bold="true"/>
+  <style name="Others 3"                    foreground="dark-green"/>
+  
+  <!-- Bracket Matching -->
+  <style name="bracket-match"               foreground="#black" background="#cyan"/>
+  <style name="bracket-mismatch"            foreground="#white" background="#red"/>
+
+  <!-- Comments -->
+  <style name="def:comment"                 foreground="green1"/>
+  <style name="def:sheband"                 foreground="green1" bold="false"/>
+  <style name="def:doc-comment-element"     italic="true"/>
+  <style name="def:doc-comment"             foreground="green1"/>
+
+  <!-- Types -->
+  <style name="def:type"                    foreground="blue1" bold="false"/>
+  
+  <!-- Constants -->
+  <style name="def:constant"                foreground="red1"/>
+  <style name="def:string"                  foreground="red1"/>
+  <style name="def:special-char"            foreground="magenta1"/>
+  <style name="def:special-constant"        foreground="magenta1"/>
+  <style name="def:floating-point"          foreground="red1"/>
+  
+  <style name="def:decimal"                 foreground="red1"/>
+  <style name="def:base-n-integer"          foreground="red1"/>
+  <style name="def:complex"                 use-style="def:base-n-integer"/>
+  <style name="def:character"               foreground="#FF80E0"/>
+  <style name="def:builtin"                 use-style="def:type"/>
+
+  <!-- Identifiers -->
+  <style name="def:identifier"              foreground="#AF0DB2" bold="false"/>
+
+  <!-- Statements -->
+  <style name="def:statement"               foreground="blue1" bold="false"/>
+
+
+  <!-- Others -->
+  <style name="def:keyword"                 foreground="#0000ff"/>
+  <style name="def:preprocessor"            foreground="blue1" bold="false"/>
+  <style name="def:error"                   foreground="#white" background="#red" bold="false"/>
+  <style name="def:underlined"              italic="true" underline="true" bold="false"/>
+  <style name="latex:display-math"          foreground="magenta1" bold="false"/>
+  
+  <!-- HTML -->
+  <style name="html:dtd" foreground="#888888"/>
+  <style name="html:tag" foreground="#1c02ff"/>
+  
+  <!-- CSS -->
+  <style name="css:at-rules" foreground="#0000ff"/>
+  <style name="css:color" foreground="#c5060b"/>
+  <style name="css:keyword" foreground="#6d79de"/>
+  <style name="css:selector" foreground="#c5060b"/>
+  
+  <!-- JS -->
+  <style name="js:function" foreground="#0000ff"/>
+
+</style-scheme>
