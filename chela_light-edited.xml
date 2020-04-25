@@ -36,7 +36,7 @@
   <color name="white1"                      value="#fafafa"/>
 
   <!-- Global Settings -->
-  <style name="text"                        foreground="#black" background="transparent" />
+  <style name="text"                        foreground="#black" background="white" />
   <style name="selection"                   foreground="#4D4D4D" background="#FEFF00"/>
   <style name="cursor"                      foreground="#black"/>
   <style name="current-line"                background="#gray92"/>
